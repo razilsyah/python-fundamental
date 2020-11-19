@@ -45,7 +45,55 @@ print("nilai b //= 2,menjadi :",b)
 # OPERASI ASSIGNMENT BITWISE
 print("========OPERASI ASSIGNMENT BITWISE=========")
 
+# BITWISE OR |
+print("======= BITWISE OR |==========")
 d = True
 print("nilai d = ",d)
+d |= False
+print("nilai d |= false =",d)
+d = True
+print("nilai d = ",d)
+d |= True
+print("nilai d |= True =",d)
+
+
+# BITWISE AND &
+print("======= BITWISE AND &==========")
+d = True
+print("nilai d = ",d)
+d &= False
+print("nilai d &= false =",d)
+d = True
+print("nilai d = ",d)
+d |= True
+print("nilai d ^= True =",d)
+
+
+# BITWISE XOR
+print("======= BITWISE XOR ^==========")
+d = True
+print("nilai d = ",d)
+d ^= False
+print("nilai d ^= false =",d)
+d = True
+print("nilai d = ",d)
+d ^= True
+print("nilai d ^ = True =",d)
+
+
+# SHIFTING
+print("==========SHIFTING RIGHT=========")
+z = 10
+print("nila z =",z ,"bytes = ",format(z,"04b"))
+z >>= 1
+print("nilai z >>= 1 :",z,' bytes:',format(z,"04b"))
+
+# SHIFTING KIRI
+print("==========SHIFTING LIGHT=========")
+z = 10
+print("nila z =",z ,"bytes = ",format(z,"04b"))
+z <<= 1
+print("nilai z <<= 1 :",z,' bytes:',format(z,"04b"))
+
 
 
