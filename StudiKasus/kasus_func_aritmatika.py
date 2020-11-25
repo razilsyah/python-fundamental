@@ -11,6 +11,7 @@ def menu():
 def inputtt():
     user = 0
     while user != 6:
+        menu()
         user = int(input("input pilihan anda :"))
         if user == 1:
             print("===penjumlahan===")
@@ -80,5 +81,5 @@ def inputtt():
 
 
 # output
-menu()
+# menu()
 inputtt()
