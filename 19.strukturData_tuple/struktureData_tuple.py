@@ -1,5 +1,8 @@
 # perbandingan struktur data list dan tuple
 # tuple di mulai dengan ()
+# tuple bersifat constanta atau tidak bisa di rubah
+# kecepatan dan mengambil memori, lebih kencang dan sedikit
+# wort it untuk menyimpan data id,nik,dll yang sifatnya permanen
 
 # list dan tuple
 data_list = [1,2,3,4,5,6]
