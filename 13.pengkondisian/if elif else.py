@@ -22,5 +22,11 @@ beli = "bandross"
 if beli in gorengan:
     print("ohh iya ada")
 
-if beli not in gorengan :
+if beli is not gorengan :
     print("maap saya tidak jual",beli)
+
+
+
+
+
+
