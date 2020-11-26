@@ -1,6 +1,5 @@
-# set atau himpunan yang bersifat mutable yang bisa di ubah isinya
-# dapat berisi data apapun ,tapi tidak bisa list,set,dictionary
-# kita bisa membuat set ke list dg memasukan list ke dalam set()
+# Set adalah salah satu tipe data di Python yang tidak berurut (unordered). Set memiliki anggota yang unik (tidak ada duplikasi). Jadi misalnya kalau kita meletakkan dua anggota yang sama di dalam set, maka otomatis set akan menghilangkan yang salah satunya
+# Set bisa digunakan untuk melakukan operasi himpunan matematika seperti gabungan, irisan, selisih, dan lain – lain.
 
 ### contoh menambah data pada set
 print("======MENAMBAH DATA =======")
