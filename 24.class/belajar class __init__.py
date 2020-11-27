@@ -12,4 +12,4 @@ class mobil():
 classMobil = mobil("toyota")
 print(classMobil.Nama)
 
-classMobil.belajar("di sumedang")
+classMobil.belajar("di sumedang"  )
