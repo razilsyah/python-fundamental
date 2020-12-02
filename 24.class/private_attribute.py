@@ -1,15 +1,22 @@
-class mobil():
+class mencari_nilai():
+    __nilai = 0 # private
+    nilai = 0 # publik
+    def uts(self,nilai_uts):
+        self.__nilai += nilai_uts
 
-    def __init__(self,kondisi):
-        self.Nama = kondisi
+    def uas(self,nilai_uas):
+        self.__nilai += nilai_uas
 
-    def belajar(self,lokasi): #fungsi dalam class disebut method
-        print(self.Nama,"sedang tes drive",lokasi)
+    def hasil_uts_dan_uas(self):
+        if self.__nilai >= 50:
+            print("anda lulus")
+        else:
+            print("anda tidak lulus")
 
 
-# main programnya
-
-classMobil = mobil("toyota")
-print(classMobil.Nama)
-
-classMobil.belajar("di sumedang"  )
+razil = mencari_nilai()
+razil.uts(10)
+razil.uas(20)
+razil.hasil_uts_dan_uas()
+# print(razil.__nilai) ini akan error karna mengakses variable private
+# print(razil.nilai) ini tidak akan error karna variable publik
